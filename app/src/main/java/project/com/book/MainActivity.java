@@ -72,6 +72,7 @@ return true;
 
 
 
+
         Button button8= (Button) findViewById(R.id.About);
         button8.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,6 +83,29 @@ return true;
 
             }
         });
+
+
+
+
+
+
+
+
+
+
+        Button button6= (Button) findViewById(R.id.button6);
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intents=new Intent(MainActivity.this,TestingPage.class);
+                startActivity(intents);
+
+            }
+        });
+
+
+
     }
 
 
