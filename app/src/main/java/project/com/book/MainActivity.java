@@ -28,6 +28,8 @@ return true;
         if(id==R.id.setting){
             Intent intent= new Intent(MainActivity.this,Setting.class);
             startActivity(intent);
+
+ //Calling Intend
         }
 
         if(id==R.id.websearchtag){
