@@ -47,7 +47,15 @@
         <activity android:name=".OnlineSearch" />
         <activity android:name=".Touchpaid" />
         <activity android:name=".Touchpaid2" />
-        <activity android:name=".paintselecter"></activity>
+        <activity android:name=".paintselecter" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="project.com.book.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
