@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Set Width"
+        android:id="@+id/SetWidth"
+        android:orderInCategory="100"/>
+
+    <item
+        android:title="Set Color"
+        android:id="@+id/setcolor"
+        android:orderInCategory="101"/>
+    <item
+        android:title="Set Background Color"
+        android:id="@+id/Setbackcolor"
+        android:orderInCategory="102"/>
+    <item
+        android:title="Set Style"
+        android:id="@+id/setstyle"
+        android:orderInCategory="103"/>
+    <item
+        android:title="Clear Screen"
+        android:id="@+id/clearscreen"
+        android:orderInCategory="103"/>
+
+
+</menu>
