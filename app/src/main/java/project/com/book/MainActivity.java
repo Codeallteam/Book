@@ -50,7 +50,7 @@ return true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView( R.layout.activity_main);
 
 
         Button button = (Button) findViewById(R.id.button3);
@@ -64,6 +64,14 @@ return true;
 
             }
         });
+
+
+
+
+
+
+
+
 
 
 
