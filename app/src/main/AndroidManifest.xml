@@ -56,6 +56,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="project.com.book.MainActivity" />
         </activity>
+        <activity android:name=".LoginPage"></activity>
     </application>
 
 </manifest>

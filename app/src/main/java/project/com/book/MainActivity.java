@@ -26,7 +26,7 @@ return true;
 
         int id = item.getItemId();
         if(id==R.id.setting){
-            Intent intent= new Intent(MainActivity.this,Setting.class);
+            Intent intent= new Intent(MainActivity.this,SettingsActivity.class);
             startActivity(intent);
 
  //Calling Intend
@@ -87,6 +87,16 @@ return true;
 
 
 
+
+
+        Button btn= (Button) findViewById(R.id.button);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+            }
+        });
 
 
 
